@@ -17,7 +17,7 @@ const Navbar = () => {
         <li onClick={()=>setMenu("Contact")} className={menu==="Contact"?"active":""}>Contact</li>
       </ul>
       <div className="navbar-right">
-        <button type="button">Donate</button>
+        <button type="button">Donate Now</button>
       </div>
     </div>
   )
