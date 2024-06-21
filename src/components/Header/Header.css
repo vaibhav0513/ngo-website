@@ -1,7 +1,7 @@
 .header{
   height: 34vw;
   margin: 30px auto;
-  /* background: url('/header-img.jpg') no-repeat; */
+  /* background: url('/header-img.png') no-repeat; */
   background-color: #FFCBCB;
   background-size: contain;
   position: relative;
@@ -28,17 +28,8 @@
   color: rgb(0, 136, 255);
   font-size: 1vw;
 }
-/* 
-.header-contents button{
-  border: none;
-  color: #F7F9F2;
-  font-weight: 500;
-  padding: 1vw 2.3vw;
-  background-color: #028391;
-  font-size: max(1vw,13px);
-  border-radius: 50px;
-} */
-.header-contents-buttons button{
+
+.header-contents-btns button{
   border: none;
   color: #f7f9f2;
   font-weight: 500;
@@ -46,4 +37,48 @@
   background-color: #028391;
   font-size: max(1vw,13px);
   border-radius: 40px;
+}
+
+/**************************************Donation Section****************************************/
+
+.header .box-container{
+  display: flex;
+  padding-top: 32rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.header .box-container .box{
+  height: 20rem;
+  width: 25rem;
+  background: #FF6969;
+  text-align: center;
+  /* border-radius: 1rem; */
+  box-shadow: 0.3rem .5rem rgba(0, 0, 0, 0.5);
+  /* margin: 2rem; */
+  cursor: pointer;
+}
+
+.header .box-container img{
+  height: 6rem;
+  width: 6rem;
+  line-height: 6rem;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 3rem;
+  margin: 2rem 0;
+  transition: .2s;
+}
+
+.header .box-container h3{
+  font-size: 2rem;
+  color: #f7f9f2;
+  transition: .2s;
+}
+
+.header .box-container p{
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  color: #0C1844;
 }
