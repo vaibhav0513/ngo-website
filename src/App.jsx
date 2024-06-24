@@ -5,7 +5,6 @@ import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Blogs from './pages/Blogs/Blogs'
 import Goals from './components/Goals/Goals'
-
 import TeamMember from './components/TeamMember/TeamMember'
 import Title from './components/Title/Title'
 
