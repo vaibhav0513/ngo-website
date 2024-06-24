@@ -7,6 +7,8 @@ import Blogs from './pages/Blogs/Blogs'
 import Goals from './components/Goals/Goals'
 import TeamMember from './components/TeamMember/TeamMember'
 import Title from './components/Title/Title'
+import TeamMember from './components/TeamMember/TeamMember'
+import Title from './components/Title/Title'
 
 
 const App = () => {
