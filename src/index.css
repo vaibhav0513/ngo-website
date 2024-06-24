@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
+:root{
+  --primary-color: #FFEEA9;
+  --secondary-color: #FFBF78;
+  --light-color: #FEFFD2;
+  --dark-color: #FF7D29;
+}
+
 *{
   padding: 0;
   margin: 0;
@@ -8,15 +15,14 @@
 }
 
 body{
-  min-height: 100vh;
+  min-height: 100%;
 }
 a{
   text-decoration: none;
   color: inherit;
 }
 .app{
-  width: 80%;
-  padding-top: 30px;
+  width: 100%;
+  /* padding: 30px 30px; */
   margin: auto;
-
 }

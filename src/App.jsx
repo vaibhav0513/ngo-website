@@ -4,6 +4,8 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Blogs from './pages/Blogs/Blogs'
+import TeamMember from './components/TeamMember/TeamMember'
+import Title from './components/Title/Title'
 
 
 const App = () => {
@@ -16,8 +18,15 @@ const App = () => {
          <Route path='/About' element={<About/>} />
       </Routes>
       <Home/>
+
+      <div className="container">
+        <Title title='Meet Our Members' subtitle='Help today because tomorrow you may be the one who needs more helping!'/>
+         <TeamMember/>
+      </div>
+      
     </div>
   )
 }
 
 export default App
+
