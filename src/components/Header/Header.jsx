@@ -7,7 +7,10 @@ const Header = () => {
     <div className='header'>
       <div className="header-contents">
         <h2>Give a little. change a lot.</h2>
+        <h4>Together we can make a Difference</h4>
         <p>Help today because tomorrow you may be the one who needs helping!
+        Forget what you can get and see what you can give.Help today because tomorrow you may be the one who needs helping!
+        Forget what you can get and see what you can give.Help today because tomorrow you may be the one who needs helping!
         Forget what you can get and see what you can give.</p>
         <div className="header-contents-btns">
           <button>Join with us</button>
@@ -17,7 +20,7 @@ const Header = () => {
 
       {/**************************************Donation Section.****************************************/}
 
-      <div className='box-container'>
+      {/* <div className='box-container'>
         <div className="box">
           <img src={assets.money} alt="" />
           <h3>Make Donation</h3>
@@ -27,7 +30,7 @@ const Header = () => {
 
         <div className="box">
           <img src={assets.growth} alt="" />
-          <h3>Make Donation</h3>
+          <h3>Fundrising</h3>
           <p>Help today because tomorrow you may be the one who needs helping!</p>
           <p>Read More...</p>
         </div>
@@ -38,7 +41,7 @@ const Header = () => {
           <p>Help today because tomorrow you may be the one who needs helping!</p>
           <p>Read More...</p>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
