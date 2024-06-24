@@ -22,6 +22,7 @@ const App = () => {
       </Routes>
       <Home/>
       <Goals/>
+
       <div className="container">
         <Title title='Meet Our Members' subtitle='Help today because tomorrow you may be the one who needs more helping!'/>
          <TeamMember/>

@@ -21,8 +21,6 @@ export const assets = {
   mission,
   profile,
 
-
-
   director,
   teamMemberOne,
   teamMemberTwo,
