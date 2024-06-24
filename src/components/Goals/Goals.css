@@ -1,82 +1,84 @@
-* {
+*{
     margin: 0;
     padding: 0;
 }
-
-.Sub_Container {
+.Sub_Container{
     position: relative;
     overflow: hidden;
     padding: 26px;
-    margin: 20% 0 0 0;
-    background-color: #ffeea9;
+    background-color: #bdaa5ee0;
 }
 
-.New_Container {
-    justify-content: center;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap; /* Allow items to wrap */
-}
 
-.Profile_section, .History_section, .OurMission_Section {
+.New_Container{
+ justify-content: center;
+ position: relative;
+ display: flex;
+}
+.Profile_section{
     max-width: 400px;
     min-width: 400px;
     height: 500px;
-    margin: 10px;
+    background-color: #fafafa; 
+    margin:10px;
     display: flex; 
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-color: #fafafa;
     border: 2px dashed #ddd;
+    align-items: center;
 }
-
-.History_section, .OurMission_Section {
-    background-color: #fafafa; /* Adjusted to match .Profile_section */
-    border: 2px dashed #ddd; /* Added to match .Profile_section */
+.History_section{
+    max-width: 400px;
+    min-width: 400px;
+    height: 500px;
+    margin:10px;
+    color:#fff;
 }
-
-img {
+.OurMission_Section{
+    max-width: 400px;
+    min-width: 400px;
+    height: 500px;
+    margin:10px;
+    color:#fff;
+}
+img{
     width: 400px;
 }
-
-.Profile_img {
+.Profile_img{
     width: 120px;
     height: 120px;
     margin-bottom: 25px;
     border-radius: 50%;
 }
-
-.Profile_Name {
+.Profile_Name{
     font-size: 23px;
+    
 }
-
-.Profile_Designation {
+.Profile_Designation{
     color: gray;
     margin-bottom: 20px;
-}
 
-.Profile_Content {
+}
+.Profile_Content{
     font-size: 17px;
     text-align: center;
     font-weight: 200;
     line-height: 35px;
 }
-
-.History_heading, .Mission_heading {
+.History_heading,.Mission_heading{
     color: black;
     font-weight: 600;
     padding: 10px;
 }
-
-.History_content, .Mission_content {
+.History_content,.Mission_content{
     font-size: 19px;
     color: black;
     font-weight: 300;
     padding-top: 10px;
+    /* padding-bottom: 30px; */
 }
 
-.btn_history, .btn_mission {
+.btn_history,.btn_mission{
     background-color: #f8b864;
     color: #fff;
     line-height: 45px;
