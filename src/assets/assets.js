@@ -10,7 +10,8 @@ import teamMemberOne from './teamMemberOne.png'
 import teamMemberTwo from './teamMemberTwo.png'
 import teamMemberThree from './teamMemberThree.png'
 import checkMark from './checkMark.png'
-
+import aboutNGO from './aboutNGO.png'
+import play_icon from './play_icon.png'
 
 export const assets = {
   logo,
@@ -20,12 +21,12 @@ export const assets = {
   history,
   mission,
   profile,
-
-
-
   director,
   teamMemberOne,
   teamMemberTwo,
   teamMemberThree,
   checkMark,
+  aboutNGO,
+  play_icon,
+
 }
