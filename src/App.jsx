@@ -7,7 +7,7 @@ import Goals from './components/Goals/Goals'
 import TeamMember from './components/TeamMember/TeamMember'
 import Title from './components/Title/Title'
 import About from './pages/About/About'
-
+import Testimonials from './components/Testimonials/Testimonials'
 
 const App = () => {
   return (
@@ -24,6 +24,8 @@ const App = () => {
         <Title title='Meet Our Members' subtitle='Help today because tomorrow you may be the one who needs more helping!'/>
          <TeamMember/>
          <About/>
+         <Title title='What People Say About Us' subtitle='Help today because tomorrow you may be the one who needs more helping!'/>
+         <Testimonials/>
       </div>
     </div>
   )
