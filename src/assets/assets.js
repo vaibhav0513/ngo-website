@@ -1,3 +1,5 @@
+import hero from './hero.png'
+import dark_arrow from './dark_arrow.png'
 import logo from './social.png'
 import money from './money.png'
 import growth from './growth.png'
@@ -18,9 +20,15 @@ import user_1 from './user_1.png'
 import user_2 from './user_2.png'
 import user_3 from './user_3.png'
 import user_4 from './user_4.png'
+import msg_icon from './msg_icon.png'
+import phone_icon from './phone_icon.png'
+import location_icon from './location_icon.png'
+import mail_icon from './mail_icon.png'
 
 
 export const assets = {
+  hero,
+  dark_arrow,
   logo,
   money,
   growth,
@@ -41,5 +49,8 @@ export const assets = {
   user_2,
   user_3,
   user_4,
-
+  msg_icon,
+  phone_icon,
+  location_icon,
+  mail_icon
 }

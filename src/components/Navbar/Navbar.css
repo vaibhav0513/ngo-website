@@ -13,9 +13,11 @@
 
 .navbar .logo{
   width: 150px;
-  color: #028391;
+  /* color: #028391; */
+  color: var(--dark-color);
   font-size: 28px;
   font-weight: bolder;
+  cursor: pointer;
 }
 
 .navbar-menu{
@@ -31,7 +33,7 @@
   background: transparent;
   font-size: 16px;
   color: #1A2130;
-  border: 1px solid #028391;
+  border: 1px solid var(--dark-color);
   padding: 10px 30px;
   border-radius: 50px;
   cursor: pointer;
@@ -39,7 +41,7 @@
 }
 
 .navbar button:hover{
-  background-color: #6B8A7A;
+  background-color: #0F3460;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   color: aliceblue;
 }

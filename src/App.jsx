@@ -8,15 +8,18 @@ import TeamMember from './components/TeamMember/TeamMember'
 import Title from './components/Title/Title'
 import About from './pages/About/About'
 import Testimonials from './components/Testimonials/Testimonials'
+import Contact from './pages/Contact/Contact'
 
 const App = () => {
   return (
     <div className='app'>
       <Navbar/>
       <Routes>
-         <Route path='/' element={<Home/>} />
-         <Route path='/Blogs' element={<Blogs/>} />
-         <Route path='/About' element={<About/>} />
+         <Route path='/home' element={<Home/>} />
+         <Route path='/blogs' element={<Blogs/>} />
+         <Route path='/about' element={<About/>} />
+         {/* <Route path='/about' element={<Events/>} /> */}
+         <Route path='/contact' element={<Contact/>} />
       </Routes>
       <Home/>
       <Goals/>
@@ -26,6 +29,10 @@ const App = () => {
          <About/>
          <Title title='What People Say About Us' subtitle='Help today because tomorrow you may be the one who needs more helping!'/>
          <Testimonials/>
+
+         <Title title='Contact With Us' subtitle='Get in Touch'/>
+         <Contact/>
+
       </div>
     </div>
   )

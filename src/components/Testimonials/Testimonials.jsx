@@ -13,18 +13,16 @@ const Testimonials = () => {
     }
     slider.current.style.transform = `translateX(${tx}%)`;
   }
-
   const slideBackward = () =>  {
     if(tx < 0){
       tx += 25;
-    }
+    }    
     slider.current.style.transform = `translateX(${tx}%)`;
   }
-
   return (
     <div className='Testimonials'>
-      <img src={assets.next_icon} alt="" className='next-btn' onClick={slideForward}/>
-      <img src={assets.back_icon} alt="" className='back-btn' onClick={slideBackward}/>
+      <img src={assets.next_icon} alt="" className='next-btn' onClick={slideForward}  />
+      <img src={assets.back_icon} alt="" className='back-btn' onClick={slideBackward} />
       <div className="slider">
         <ul ref={slider}>
           <li>
@@ -80,7 +78,7 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={assets.user_4} alt="" />
                 <div>
-                  <h3>CaptainAmerica</h3>
+                  <h3>Captain America</h3>
                   <span>Microsoft, Hydrabad</span>
                 </div>
               </div>
@@ -89,22 +87,6 @@ const Testimonials = () => {
               </p>
             </div>
           </li>
-
-          {/* User-info-5  */}
-          {/* <li>
-            <div className="slide">
-              <div className="user-info">
-                <img src={assets.user_4} alt="" />
-                <div>
-                  <h3>Emma Waston</h3>
-                  <span>Google, USA</span>
-                </div>
-              </div>
-              <p>
-              Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.
-              </p>
-            </div>
-          </li> */}
         </ul>
       </div>
 
