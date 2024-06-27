@@ -1,37 +1,36 @@
 .header{
-  height: 34vw;
-  /* margin: 30px auto; */
-  /* background: url('/header-img.png') no-repeat; */
-  background-color: var(--primary-color);
-  background-size: contain;
-  position: relative;
-}
-
-.header-contents{
-  position: absolute;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient( 109.6deg,  rgba(254,253,205,0.7) 11.2%, rgba(163,230,255,0.7) 91.1% ), url('../../assets/hero.png');
+  background-size: cover;
+  background-position: center;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  /* gap: 1.5vw; */
-  gap: 0.5vw;
-  max-width: 50%;
-  bottom: 30%;
-  left: 6vw;
+  justify-content: center;
 }
 
-.header-contents h2{
-  font-weight: 500;
-  color: #FF6969;
-  font-size: max(3.5vw,22px);
-
-}
-.header-contents p{
-  /* color: rgb(0, 136, 255); */
-  color: blueviolet;
-  font-size: 1vw;
+.header-text{
+  text-align: center;
+  max-width: 800px;
 }
 
-.header-contents-btns button{
+.header-text h1{
+  font-size: 60px;
+  font-weight: 600;
+  background-image: linear-gradient( 109.6deg,  rgba(103,30,117,1) 11.2%, rgba(252,76,2,1) 91.1% );
+  background-clip: text;
+  color: transparent;
+
+}
+
+.header-text p{
+  max-width: 700px;
+  margin: 10px auto 20px;
+  color: #0F3460;
+  line-height: 1.4;
+}
+/* 
+.header button{
   border: none;
   color: #f7f9f2;
   font-weight: 500;
@@ -41,70 +40,4 @@
   font-size: max(1vw,13px);
   border-radius: 40px;
   cursor: pointer;
-}
-
-/**************************************Donation Section****************************************/
-
-.header .box-container{
-  display: flex;
-  padding-top: 32rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.header .box-container .box{
-  height: 20rem;
-  width: 25rem;
-  background: #FF6969;
-  text-align: center;
-  /* border-radius: 1rem; */
-  box-shadow: 0.3rem .5rem rgba(0, 0, 0, 0.5);
-  /* margin: 2rem; */
-  cursor: pointer;
-}
-
-.header .box-container img{
-  height: 6rem;
-  width: 6rem;
-  line-height: 6rem;
-  text-align: center;
-  border-radius: 50%;
-  color: #fff;
-  font-size: 3rem;
-  margin: 2rem 0;
-  transition: .2s;
-}
-
-.header .box-container h3{
-  font-size: 2rem;
-  color: #f7f9f2;
-  transition: .2s;
-}
-
-.header .box-container p{
-  font-size: 1rem;
-  padding: 0.5rem;
-  color: #0C1844;
-}
-
-/* Responsive Code  */
-@media (max-width: 1050px) {
-  .header{
-    height: 38vw;
-  }
-  .header-contents{
-    max-width: 45%;
-  }
-}
-
-@media (max-width: 750px) {
-  .header-contents{
-    max-width: 65%;
-  }
-  /* .header-contents p{
-    display: none;
-  } */
-  .header-contents bottom{
-    padding: 2vw 4vw;
-  }
-}
+} */

@@ -7,7 +7,7 @@
     overflow: hidden;
     padding: 26px;
     margin: 0 0 0 0;
-    background-color: #bdaa5ee0;
+    background-color: var(--light-color);
 }
 
 
