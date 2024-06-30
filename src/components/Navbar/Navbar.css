@@ -1,94 +1,75 @@
-.navbar{
+ nav{
   width: 100%;
-  padding: 1.5rem ;
+  background: var(--light-color);
+  color: #A91D3A;
+  padding: 4px 0;
   position: fixed;
   top: 0;
   left: 0;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  background-color: var(--light-color);
+  justify-content: space-between;
   z-index: 10;
-}
+ }
 
-.navbar .logo{
-  width: 150px;
-  /* color: #028391; */
-  color: var(--dark-color);
-  font-size: 28px;
-  font-weight: bolder;
-  cursor: pointer;
-}
+ .logo{
+  /* width: 180px; */
+    width: 200px;
+ }
 
-.navbar-menu{
-  display: flex;
+ nav ul li{
+  display: inline-block;
   list-style: none;
-  gap: 20px;
-  color: blueviolet;
-  font-size: 18px;
-  cursor: pointer;
-}
-
-.navbar button{
-  background: transparent;
+  margin: 5px 20px;
   font-size: 16px;
-  color: #1A2130;
-  border: 1px solid var(--dark-color);
-  padding: 10px 30px;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: 0.3s;
+ }
+
+ .fixed-nav{
+  background: #0F3460;
+  /* color: #fff; */
+  color: #36BA98;
+  transition: 0.5s;
 }
 
-.navbar button:hover{
-  background-color: #0F3460;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  color: aliceblue;
+.menu_icon{
+  display: none;
 }
 
-.navbar .active{
-  padding-bottom: 2px;
-  border-bottom: 2px solid var(--dark-color);
-}
-
-
-/* Responsive code */
-
-@media (max-width: 1050px) {
-  .navbar .logo{
+/* ----------------------------Media Query----------------------------- */
+@media (max-width: 1000px){
+  .logo{
     width: 140px;
   }
-  .navbar-menu{
-    gap: 20px;
-    font-size: 17px;
-  }
-  .navbar-right{
-    gap: 30px;
-  }
-  .navbar-right button{
-    padding: 8px 35px;
+  nav ul li{
+    margin: 10px 15px;
   }
 }
 
-@media (max-width: 900px) {
-  .navbar .logo{
-    width: 120px;
+@media (max-width: 840px){
+  nav{
+    padding: 15px 0;
   }
-  .navbar-menu{
-    gap: 15px;
-    font-size: 16px;
+  nav ul{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--light-color);
+    z-index: -1;
+    width: 200px;
+    padding-top: 70px;
+    transition: 0.5s;
   }
-  .navbar-right{
-    gap: 20px;
+  nav ul li{
+    display: block;
+    margin: 25px 40px;
   }
-  .navbar-right button{
-    padding: 7px 20px;
-    font-size: 15px;
+  .menu_icon{
+    display: block;
+    /* width: 30px;  great stack */
+    cursor: pointer;
   }
-}
-
-@media (max-width: 750px) {
-  .navbar-menu{
-    display: none;
+  .hide_mobile_menu{
+    right: -200px;
   }
 }
