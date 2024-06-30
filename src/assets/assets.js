@@ -1,5 +1,5 @@
 import logo from './logo.png'
-import hero from './hero.png'
+import hero from './hero.jpg'
 import white_arrow from './white_arrow.png'
 import dark_arrow from './dark_arrow.png'
 import money from './money.png'
@@ -26,6 +26,12 @@ import phone_icon from './phone_icon.png'
 import location_icon from './location_icon.png'
 import mail_icon from './mail_icon.png'
 import menu_icon from './menu_icon.png'
+import about_video from './about_video.mp4'
+import gallery_1 from './gallery_1.png'
+import gallery_2 from './gallery_2.png'
+import gallery_3 from './gallery_3.png'
+import gallery_4 from './gallery_4.png'
+
 
 
 export const assets = {
@@ -44,6 +50,10 @@ export const assets = {
   teamMemberTwo,
   teamMemberThree,
   checkMark,
+  gallery_1,
+  gallery_2,
+  gallery_3,
+  gallery_4,
   aboutNGO,
   play_icon,
   back_icon,
@@ -57,4 +67,5 @@ export const assets = {
   location_icon,
   mail_icon,
   menu_icon,
+  about_video,
 }

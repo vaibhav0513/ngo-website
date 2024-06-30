@@ -35,7 +35,7 @@ const Testimonials = () => {
                 </div>
               </div>
               <p>
-              Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.
+              Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment.
               </p>
             </div>
           </li>
@@ -51,7 +51,7 @@ const Testimonials = () => {
                 </div>
               </div>
               <p>
-              Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.
+              Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment.
               </p>
             </div>
           </li>
@@ -67,7 +67,7 @@ const Testimonials = () => {
                 </div>
               </div>
               <p>
-              Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.
+              Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment.
               </p>
             </div>
           </li>
@@ -78,12 +78,12 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={assets.user_4} alt="" />
                 <div>
-                  <h3>Captain America</h3>
+                  <h3>Captain</h3>
                   <span>Microsoft, Hydrabad</span>
                 </div>
               </div>
               <p>
-              Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.
+              Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment.
               </p>
             </div>
           </li>
