@@ -1,6 +1,8 @@
 import React from 'react'
 import './Contact.css'
 import { assets } from '../../assets/assets'
+import { IoMailOpen } from "react-icons/io5";
+
 
 const Contact = () => {
     const [result, setResult] = React.useState("");
@@ -34,7 +36,7 @@ const Contact = () => {
         <h3>Send us a message <img src={assets.msg_icon} alt="" /></h3>
         <p>Feel free to reach out through contact form or find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our NGO community.</p>
         <ul>
-          <li><img src={assets.mail_icon} alt="" /> Contact@RudraVeer.in</li>
+          <li><img src={assets.mail_icon} alt="" />Contact@RudraVeer.in</li>
           <li><img src={assets.phone_icon} alt="" /> +91 9876543210</li>
           <li><img src={assets.location_icon} alt="" /> 102-A,Galaxy Apt. Kolshet, MH, India</li>
         </ul>
@@ -50,7 +52,7 @@ const Contact = () => {
           <label>Write your message here</label>
           <textarea name="message" rows="6" placeholder='Enter your message' required></textarea>
 
-          <button type='submit' className='btn dark-btn'>Send Message</button>
+          <button type='submit' className='btn '>Send Message <img src={assets.white_arrow} alt="" /></button>
         </form>
         <span>{result}</span>
         

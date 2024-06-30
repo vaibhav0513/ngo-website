@@ -10,8 +10,8 @@ const Goals = () => {
       <div className="New_Container">
         <div className="Profile_section">
           <img src={assets.profile} className="Profile_img" />
-          <h2 className="Profile_Name">Jonathan Smith</h2>
-          <p className="Profile_Designation">CEO & Founder of Charitify.</p>
+          <h2 className="Profile_Name">Shubham Gadge</h2>
+          <p className="Profile_Designation">Founder of RudraVeer.</p>
           <p className="Profile_Content">
             The secret to happiness lies in helping others. Never underestimate the difference YOU can make in the lives of the poor, the abused and the helpless.
           </p>

@@ -1,6 +1,7 @@
+import logo from './logo.png'
 import hero from './hero.png'
+import white_arrow from './white_arrow.png'
 import dark_arrow from './dark_arrow.png'
-import logo from './social.png'
 import money from './money.png'
 import growth from './growth.png'
 import teamwork from './teamwork.png'
@@ -24,12 +25,14 @@ import msg_icon from './msg_icon.png'
 import phone_icon from './phone_icon.png'
 import location_icon from './location_icon.png'
 import mail_icon from './mail_icon.png'
+import menu_icon from './menu_icon.png'
 
 
 export const assets = {
-  hero,
-  dark_arrow,
   logo,
+  hero,
+  white_arrow,
+  dark_arrow,
   money,
   growth,
   teamwork,
@@ -52,5 +55,6 @@ export const assets = {
   msg_icon,
   phone_icon,
   location_icon,
-  mail_icon
+  mail_icon,
+  menu_icon,
 }

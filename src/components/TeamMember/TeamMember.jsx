@@ -8,7 +8,7 @@ const TeamMember = () => {
       <div className="TeamMember">
         <img src={assets.teamMemberThree} alt="" />
         <div className="caption">
-          <p>John Doe</p> 
+          <p>Shubham Gadge</p> 
           <p>Director</p>
         </div>
       </div>

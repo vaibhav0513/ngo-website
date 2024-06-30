@@ -29,15 +29,22 @@
   color: #0F3460;
   line-height: 1.4;
 }
-/* 
-.header button{
-  border: none;
-  color: #f7f9f2;
-  font-weight: 500;
-  padding: 1vw 2.1vw;
-  margin: 0.8rem;
-  background-color: var(--dark-color);
-  font-size: max(1vw,13px);
-  border-radius: 40px;
-  cursor: pointer;
-} */
+
+/* ----------------------------Media Query---------------------- */
+@media (max-width: 850px){
+  .header-text h1{
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 650px){
+  .header-text h1{
+    font-size: 30px;
+    max-width: 400px;
+    margin: auto;
+  }
+  .header-text p{
+    font-size: 14px;
+    margin: 15px auto 30px;
+  }
+}
