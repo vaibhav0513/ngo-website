@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import { assets } from '../../assets/assets'
-import { NavLink } from 'react-router-dom'
 import { Link } from 'react-scroll'
 import { RiMenu4Fill } from "react-icons/ri";
 
@@ -26,7 +25,7 @@ const Navbar = () => {
         <li><Link to='header' smooth={true} offset={0} duration={500}>Home</Link> </li>
         <li><Link to='about' smooth={true} offset={-260} duration={500}>About</Link> </li>
         <li><Link to='gallery' smooth={true} offset={-260} duration={500}>Gallery</Link> </li>
-        <li><Link to='events' smooth={true} offset={-260} duration={500}>Events</Link> </li>
+        <li><Link to='blogs' smooth={true} offset={-260} duration={500}>Events</Link> </li>
         <li><Link to='contact' smooth={true} offset={-260} duration={500}>Contact</Link> </li>
         <li><button className='btn'>Donate now</button></li>
       </ul>
